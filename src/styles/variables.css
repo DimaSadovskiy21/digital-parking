@@ -1,0 +1,20 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --light-grey: #d6d2d2;
+    --parking-background: #606060;
+    --gray: #808080;
+    --yellow: #ffff00;
+    --error: #FF0000;
+
+    --border-radius: 4px;
+
+    --opacity: rgba(0, 0, 0, 0.7);
+    --light-opacity: rgba(0, 0, 0, 0.4);
+
+    --font-size-s: 12px;
+    --font-size-m: 18px;
+    --font-size-l: 24px;
+
+    --gap: 8px;
+}

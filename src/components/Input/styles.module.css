@@ -1,0 +1,26 @@
+.input {
+    height: 30px;
+    width: 100%;
+    padding: 10px;
+    color: inherit;
+    border: 1px solid var(--light-grey);
+    border-radius: var(--border-radius);
+    outline: none;
+}
+
+.input.error {
+    border: 1px solid var(--error);
+}
+
+.input:not(.error):hover,
+.input:not(.error):focus {
+    border: 1px solid var(--gray);
+}
+
+.input:disabled {
+    pointer-events: none;
+}
+
+.input:disabled::placeholder {
+    color: var(--light-grey);
+}

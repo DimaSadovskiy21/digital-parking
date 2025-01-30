@@ -1,0 +1,41 @@
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.5
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0.5
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.car {
+    cursor: grab;
+}
+
+.draggingCar {
+    cursor: grabbing
+}
+
+.car.disabled {
+    cursor: pointer
+}
+
+.car.isOverlapped {
+    opacity: 0.5;
+}
+
+.car.isSelected {
+    animation: blink 2s infinite ease-in-out;
+}

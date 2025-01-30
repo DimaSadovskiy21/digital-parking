@@ -1,0 +1,12 @@
+.mask {
+    fill: var(--opacity);
+    rx: var(--border-radius);
+ 
+}
+
+.text {
+    fill: var(--white);
+    font-size: var(--font-size-l);
+    text-anchor: middle;
+    dominant-baseline: middle;
+}

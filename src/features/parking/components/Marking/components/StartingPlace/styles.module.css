@@ -1,0 +1,7 @@
+.patternBackground {
+    fill: var(--opacity);
+}
+
+.patternLine {
+    stroke: var(--yellow);
+}

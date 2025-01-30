@@ -1,0 +1,28 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    width: 100%;
+    max-height: 470px;
+    overflow: auto;
+}
+
+.list::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: var(--light-grey);
+    border-radius: var(--border-radius);
+    cursor: pointer
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--gray);
+    font-size: var(--font-size-m);
+}

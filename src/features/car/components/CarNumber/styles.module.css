@@ -1,0 +1,12 @@
+.carNumberWrapper {
+    fill: var(--opacity);
+    rx: var(--border-radius);
+    stroke: var(--gray);
+}
+
+.carNumber {
+    fill: var(--white);
+    font-size: var(--font-size-s);
+    text-anchor: middle;
+    dominant-baseline: middle;
+}

@@ -1,0 +1,61 @@
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: var(--light-opacity);
+}
+
+.content {
+    max-width: 60%;
+    padding: 20px;
+    border-radius: var(--border-radius);
+    background: var(--white);
+}
+
+.opened {
+    pointer-events: auto;
+    opacity: 1;
+    z-index: 10;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap);
+}
+
+.contentHeaderContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: var(--gap);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.contentFooterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: var(--gap);
+    padding-top: 8px;
+}

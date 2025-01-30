@@ -1,0 +1,17 @@
+.iconButtonWrapper {
+    fill: var(--white);
+    cursor: pointer;
+    transition: fill 0.3s ease;
+}
+
+.iconButtonWrapper:hover {
+    fill: var(--light-grey);
+}
+
+.iconButton {
+    rx: var(--border-radius);
+}
+
+.iconButton.disabled {
+    pointer-events: none;
+}
