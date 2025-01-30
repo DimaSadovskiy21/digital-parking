@@ -39,9 +39,9 @@ const CreateCarForm: FC<Props> = (props) => {
       <Input
         value={watch("carNumber")}
         onChange={handleCarNumberChange}
-        placeholder="Car Number (Max Length: 7)"
+        placeholder="Car Number (Max Length: 8)"
         type="text"
-        maxLength={7}
+        maxLength={8}
         isError={!!errors.carNumber?.message}
         disabled={isDisabled}
       />
